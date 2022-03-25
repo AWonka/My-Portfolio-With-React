@@ -7,15 +7,15 @@ function Navbar() {
     // const handleClick = () => setClick(!click)
 
     return (
-        <div class="col-6 text-center">
-            <a class="headers-links" href="#about-me">
-            <h2 class="headers text-white">About Me</h2>
+        <div className="col-6 text-center">
+            <a className="headers-links" href="#about-me">
+            <h2 className="headers text-white">About Me</h2>
             </a>
-            <a class="headers-links" href="#my-work">
-            <h2 class="headers text-white">My Work</h2>
+            <a className="headers-links" href="#my-work">
+            <h2 className="headers text-white">My Work</h2>
             </a>
-            <a class="headers-links" href="#contact-me">
-            <h2 class="headers text-white">Contact Me</h2>
+            <a className="headers-links" href="#contact-me">
+            <h2 className="headers text-white">Contact Me</h2>
             </a>
         </div>
     )

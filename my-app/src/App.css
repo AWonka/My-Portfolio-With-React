@@ -1,38 +1,150 @@
-.App {
+*, 
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    line-height: 1;
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+input,
+select,
+option,
+optgroup,
+textarea,
+button,
+pre,
+code {
+    font-size: 100%;
+    font-family: inherit;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+  background-color: indigo;
+}
+
+h1 {
+  font-size: 2rem;
+  padding-top: 30px;
+}
+
+.imgs:hover {
+  transform: scale(1.2);
+  transition: transform .3s;
+  filter: saturate(2)
+}
+
+.headers {
+  font-size: 1.4rem;
+}
+
+.headers-links {
+  text-decoration: none;
+}
+
+.headers-links:hover{
+  text-decoration: underline;
+}
+
+.my-pic {
+  width: 250px;
+  height: auto;
+}
+
+.first-project {
+  width: 50%;
+  height: auto;
+}
+
+.other-projects {
+  width: 50%;
+  height: auto;
+}
+
+.sections {
+  margin-top: 20px;
+}
+
+.about-p {
+  margin-top: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.4rem;
   text-align: center;
+  letter-spacing: 1px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.work-title {
+  text-align: center;
+  margin-top: 2rem;
+  background-color: indigo;
   color: white;
+  font-size: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.git-repo {
+  text-decoration: none;
+  font-size: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.git-repo:hover{
+  text-decoration: underline;
+}
+
+.contact-info {
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 0.5rem;
+}
+
+.contact-info:hover {
+  text-decoration: underline;
+}
+
+.left-side {
+  border-right: 4px solid indigo;
+  background-color: orange;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  text-align: right;
+  font-size: 2rem;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+footer {
+  background-color: indigo;
+  color: white;
+  font-size: 2rem;
+  margin-top: 1.4rem;
+  padding-top: 1.4rem;
+  padding-bottom: 1.2rem;
+  text-align: center;
+  vertical-align: middle;
 }

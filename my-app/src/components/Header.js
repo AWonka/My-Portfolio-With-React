@@ -1,13 +1,14 @@
 import React from 'react';
 import Navbar from './Navigation';
 
+
 function Header() {
 
     return (
-        <header class="container-fluid">
-            <div class="row">
-                <div class="col-6">
-                <h1 class="text-white">Wonka</h1>
+        <header className="container-fluid">
+            <div className="row">
+                <div className="col-6">
+                <h1 className="text-white">Wonka</h1>
             </div>
         <Navbar></Navbar>
         </div>
