@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.073c9b0a.css",
-    "main.js": "/my-app/static/js/main.cc844985.js",
+    "main.css": "/my-app/static/css/main.2dd60078.css",
+    "main.js": "/my-app/static/js/main.a9ad05af.js",
     "static/js/787.28cb0dcd.chunk.js": "/my-app/static/js/787.28cb0dcd.chunk.js",
-    "static/media/logo.svg": "/my-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/codequizimage.PNG": "/my-app/static/media/codequizimage.ecb88dc309a27e0e532e.PNG",
+    "static/media/project1image.PNG": "/my-app/static/media/project1image.941367f5381b795ca31e.PNG",
+    "static/media/fb pic.jpg": "/my-app/static/media/fb pic.c0e1f6dd683bd65f7b7d.jpg",
+    "static/media/dayimage.png": "/my-app/static/media/dayimage.17382fdc528b5eb2cb1c.png",
     "index.html": "/my-app/index.html",
-    "main.073c9b0a.css.map": "/my-app/static/css/main.073c9b0a.css.map",
-    "main.cc844985.js.map": "/my-app/static/js/main.cc844985.js.map",
+    "main.2dd60078.css.map": "/my-app/static/css/main.2dd60078.css.map",
+    "main.a9ad05af.js.map": "/my-app/static/js/main.a9ad05af.js.map",
     "787.28cb0dcd.chunk.js.map": "/my-app/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.cc844985.js"
+    "static/css/main.2dd60078.css",
+    "static/js/main.a9ad05af.js"
   ]
 }
